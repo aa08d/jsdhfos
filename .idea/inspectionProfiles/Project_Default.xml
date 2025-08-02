@@ -1,0 +1,42 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="3.12" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyDeprecationInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="users.domain.common.value_objects.value_object.ValueObject.__getitem__" />
+          <option value="application.common.pagination.dto.PaginatedItemsDTO.__getitem__" />
+          <option value="domain.common.value_objects.value_object.ValueObject.__getitem__" />
+          <option value="domain.common.value_objects.base.ValueObject.__getitem__" />
+          <option value="domain.user.value_objects.username.Username.to_raw" />
+          <option value="domain.user.value_objects.deleted_status.DeletionTime.to_raw" />
+          <option value="users.domain.common.value_objects.base.ValueObject.__getitem__" />
+          <option value="users.application.common.pagination.dto.PaginatedItemsDTO.__getitem__" />
+          <option value="users.presentation.api.contollers.responses.base.ErrorData.__getitem__" />
+          <option value="users.presentation.api.controllers.responses.base.ErrorResponse.__getitem__" />
+          <option value="users.presentation.api.controllers.responses.base.OkResponse.__getitem__" />
+          <option value="src.domain.common.value_objects.base.ValueObject.__getitem__" />
+          <option value="src.application.common.pagination.dto.PaginatedItemsDTO.__getitem__" />
+          <option value="src.presentation.api.controllers.responses.base.ErrorData.__getitem__" />
+          <option value="src.presentation.api.controllers.responses.base.OkResponse.__getitem__" />
+          <option value="company.models.EnergySupplyCompany.objects" />
+          <option value="branch.models.Branch.objects" />
+          <option value="consumer.models.ConsumptionPattern.*" />
+          <option value="consumer.models.ConsumerType.objects" />
+          <option value="consumer.models.ContractType.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

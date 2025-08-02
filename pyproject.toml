@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "gadvpn"
+version = "0.1.0"
+description = ""
+authors = ["aa08d <alisultanovdzamaludin0@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^3.21.0"
+marzban-api-client = "^0.4.9"
+yookassa = "^3.6.0"
+fastapi = "^0.116.1"
+uvicorn = "^0.35.0"
+aioschedule = "^0.5.2"
+apscheduler = "^3.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
