@@ -7,7 +7,6 @@ from aiogram.client.default import DefaultBotProperties
 
 
 from bot.handlers import include_routers
-from marzban.main import get_token, get_client
 from marzban.config import MarzbanConfig
 from marzban.client import MarzbanClient
 from bot.scheduler.notification import notify_users_sub_is_end
@@ -23,10 +22,8 @@ async def init_marzban() -> MarzbanClient:
         username="ophamino",
         password="Ad2685118",
     )
-    token = await get_token(config.url, config.username, config.password)
-    user = get_client(config.url, token)
 
-    return MarzbanClient(token, user)
+    return MarzbanClient(config=config)
 
 
 async def main() -> None:
